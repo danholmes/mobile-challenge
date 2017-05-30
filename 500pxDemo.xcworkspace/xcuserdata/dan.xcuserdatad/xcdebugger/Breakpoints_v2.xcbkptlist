@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "500pxDemo/Interface/GreedoSizeCalculator.swift"
-            timestampString = "517819714.715183"
+            timestampString = "517823131.447211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "sizeForPhotoAtIndexPath(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "500pxDemo/Interface/GreedoSizeCalculator.swift"
-            timestampString = "517819714.715183"
+            timestampString = "517823131.447211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "computeSizesAtIndexPath(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "500pxDemo/Interface/GreedoSizeCalculator.swift"
-            timestampString = "517819714.715183"
+            timestampString = "517823131.447211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "computeSizesAtIndexPath(_:)"
             landmarkType = "7">
          </BreakpointContent>
