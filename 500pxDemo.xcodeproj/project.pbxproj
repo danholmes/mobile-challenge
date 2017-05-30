@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7B3CCEDE1794E9AF19736C /* Pods_500pxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA12835D8B1FC1B9A1C8BBE8 /* Pods_500pxDemo.framework */; };
 		371419B61ECBA2D7000869DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371419B51ECBA2D7000869DA /* AppDelegate.swift */; };
-		371419B81ECBA2D7000869DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371419B71ECBA2D7000869DA /* ViewController.swift */; };
 		371419BB1ECBA2D7000869DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371419B91ECBA2D7000869DA /* Main.storyboard */; };
 		371419BD1ECBA2D7000869DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371419BC1ECBA2D7000869DA /* Assets.xcassets */; };
 		371419C01ECBA2D7000869DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371419BE1ECBA2D7000869DA /* LaunchScreen.storyboard */; };
+		371419CA1ECBA8CE000869DA /* Default500ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371419C91ECBA8CE000869DA /* Default500ApiClient.swift */; };
+		3733A41D1EDCDF7A00044959 /* GreedoSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3733A41C1EDCDF7A00044959 /* GreedoSizeCalculator.swift */; };
+		3733A41F1EDD2E7B00044959 /* GreedoCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3733A41E1EDD2E7B00044959 /* GreedoCollectionViewLayout.swift */; };
+		3760A3301ED3C4D70011D36D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A32F1ED3C4D70011D36D /* MainViewController.swift */; };
+		3760A3321ED3C76C0011D36D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A3311ED3C76C0011D36D /* PhotoCollectionViewCell.swift */; };
+		3760A3341ED3CAC20011D36D /* PhotoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A3331ED3CAC20011D36D /* PhotoCellModel.swift */; };
+		3760A3361ED3CC430011D36D /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A3351ED3CC430011D36D /* PhotoInfo.swift */; };
+		3760A3381ED3CCEE0011D36D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A3371ED3CCEE0011D36D /* User.swift */; };
+		3760A33A1ED3CEEF0011D36D /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A3391ED3CEEF0011D36D /* Statics.swift */; };
+		3760A33C1ED3DC0A0011D36D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3760A33B1ED3DC0A0011D36D /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		371419B21ECBA2D7000869DA /* 500pxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 500pxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		371419B51ECBA2D7000869DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		371419B71ECBA2D7000869DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		371419BA1ECBA2D7000869DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		371419BC1ECBA2D7000869DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371419BF1ECBA2D7000869DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		371419C11ECBA2D7000869DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371419C91ECBA8CE000869DA /* Default500ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Default500ApiClient.swift; path = Network/500Px/Default500ApiClient.swift; sourceTree = "<group>"; };
+		3733A41C1EDCDF7A00044959 /* GreedoSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreedoSizeCalculator.swift; path = Interface/GreedoSizeCalculator.swift; sourceTree = "<group>"; };
+		3733A41E1EDD2E7B00044959 /* GreedoCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreedoCollectionViewLayout.swift; path = Interface/GreedoCollectionViewLayout.swift; sourceTree = "<group>"; };
+		3760A32F1ED3C4D70011D36D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Interface/MainViewController.swift; sourceTree = "<group>"; };
+		3760A3311ED3C76C0011D36D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewCell.swift; path = Interface/PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3760A3331ED3CAC20011D36D /* PhotoCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCellModel.swift; path = Interface/PhotoCellModel.swift; sourceTree = "<group>"; };
+		3760A3351ED3CC430011D36D /* PhotoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoInfo.swift; path = Network/500Px/PhotoInfo.swift; sourceTree = "<group>"; };
+		3760A3371ED3CCEE0011D36D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Network/500Px/User.swift; sourceTree = "<group>"; };
+		3760A3391ED3CEEF0011D36D /* Statics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Statics.swift; path = Network/500Px/Statics.swift; sourceTree = "<group>"; };
+		3760A33B1ED3DC0A0011D36D /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Network/500Px/Comment.swift; sourceTree = "<group>"; };
+		95B19030D0D1B480F22A911F /* Pods-500pxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500pxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-500pxDemo/Pods-500pxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9877C93BDDE85D7F7DD7538A /* Pods-500pxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500pxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-500pxDemo/Pods-500pxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BA12835D8B1FC1B9A1C8BBE8 /* Pods_500pxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_500pxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7B3CCEDE1794E9AF19736C /* Pods_500pxDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0858116EF46899124B39DCDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA12835D8B1FC1B9A1C8BBE8 /* Pods_500pxDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		371419A91ECBA2D7000869DA = {
 			isa = PBXGroup;
 			children = (
 				371419B41ECBA2D7000869DA /* 500pxDemo */,
 				371419B31ECBA2D7000869DA /* Products */,
+				6D5920B52C089FD368096C82 /* Pods */,
+				0858116EF46899124B39DCDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,64 @@
 		371419B41ECBA2D7000869DA /* 500pxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3760A32C1ED3C2CB0011D36D /* Interface */,
+				371419C71ECBA7AF000869DA /* Network */,
 				371419B51ECBA2D7000869DA /* AppDelegate.swift */,
-				371419B71ECBA2D7000869DA /* ViewController.swift */,
-				371419B91ECBA2D7000869DA /* Main.storyboard */,
 				371419BC1ECBA2D7000869DA /* Assets.xcassets */,
-				371419BE1ECBA2D7000869DA /* LaunchScreen.storyboard */,
 				371419C11ECBA2D7000869DA /* Info.plist */,
 			);
 			path = 500pxDemo;
+			sourceTree = "<group>";
+		};
+		371419C71ECBA7AF000869DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				371419C81ECBA831000869DA /* 500Px */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		371419C81ECBA831000869DA /* 500Px */ = {
+			isa = PBXGroup;
+			children = (
+				371419C91ECBA8CE000869DA /* Default500ApiClient.swift */,
+				3760A3351ED3CC430011D36D /* PhotoInfo.swift */,
+				3760A3371ED3CCEE0011D36D /* User.swift */,
+				3760A33B1ED3DC0A0011D36D /* Comment.swift */,
+				3760A3391ED3CEEF0011D36D /* Statics.swift */,
+			);
+			name = 500Px;
+			sourceTree = "<group>";
+		};
+		3733A41B1EDCDF5F00044959 /* GreedoLayoutSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3733A41C1EDCDF7A00044959 /* GreedoSizeCalculator.swift */,
+				3733A41E1EDD2E7B00044959 /* GreedoCollectionViewLayout.swift */,
+			);
+			name = GreedoLayoutSwift;
+			sourceTree = "<group>";
+		};
+		3760A32C1ED3C2CB0011D36D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				3733A41B1EDCDF5F00044959 /* GreedoLayoutSwift */,
+				371419B91ECBA2D7000869DA /* Main.storyboard */,
+				371419BE1ECBA2D7000869DA /* LaunchScreen.storyboard */,
+				3760A32F1ED3C4D70011D36D /* MainViewController.swift */,
+				3760A3311ED3C76C0011D36D /* PhotoCollectionViewCell.swift */,
+				3760A3331ED3CAC20011D36D /* PhotoCellModel.swift */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		6D5920B52C089FD368096C82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B19030D0D1B480F22A911F /* Pods-500pxDemo.debug.xcconfig */,
+				9877C93BDDE85D7F7DD7538A /* Pods-500pxDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 371419C41ECBA2D7000869DA /* Build configuration list for PBXNativeTarget "500pxDemo" */;
 			buildPhases = (
+				32F560DC145087F8F47567DF /* [CP] Check Pods Manifest.lock */,
 				371419AE1ECBA2D7000869DA /* Sources */,
 				371419AF1ECBA2D7000869DA /* Frameworks */,
 				371419B01ECBA2D7000869DA /* Resources */,
+				F97A4CEAE085DA7969FA95CD /* [CP] Embed Pods Frameworks */,
+				D382164253F08CCCEE370178 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +218,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32F560DC145087F8F47567DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D382164253F08CCCEE370178 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500pxDemo/Pods-500pxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97A4CEAE085DA7969FA95CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-500pxDemo/Pods-500pxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		371419AE1ECBA2D7000869DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371419B81ECBA2D7000869DA /* ViewController.swift in Sources */,
+				3760A3361ED3CC430011D36D /* PhotoInfo.swift in Sources */,
+				3760A3301ED3C4D70011D36D /* MainViewController.swift in Sources */,
+				3760A3321ED3C76C0011D36D /* PhotoCollectionViewCell.swift in Sources */,
+				3760A33A1ED3CEEF0011D36D /* Statics.swift in Sources */,
 				371419B61ECBA2D7000869DA /* AppDelegate.swift in Sources */,
+				371419CA1ECBA8CE000869DA /* Default500ApiClient.swift in Sources */,
+				3760A3341ED3CAC20011D36D /* PhotoCellModel.swift in Sources */,
+				3760A33C1ED3DC0A0011D36D /* Comment.swift in Sources */,
+				3733A41D1EDCDF7A00044959 /* GreedoSizeCalculator.swift in Sources */,
+				3733A41F1EDD2E7B00044959 /* GreedoCollectionViewLayout.swift in Sources */,
+				3760A3381ED3CCEE0011D36D /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +402,7 @@
 		};
 		371419C51ECBA2D7000869DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B19030D0D1B480F22A911F /* Pods-500pxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V2KKYCCJQ7;
@@ -272,6 +416,7 @@
 		};
 		371419C61ECBA2D7000869DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9877C93BDDE85D7F7DD7538A /* Pods-500pxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V2KKYCCJQ7;
@@ -302,6 +447,7 @@
 				371419C61ECBA2D7000869DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
