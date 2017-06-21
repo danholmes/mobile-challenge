@@ -12,6 +12,8 @@ import Alamofire
 import AlamofireImage
 import AlamofireObjectMapper
 
+
+
 class PhotoCellModel: NSObject, INSPhotoViewable {
     var image: UIImage?
     var thumbnailImage: UIImage?
@@ -38,6 +40,20 @@ class PhotoCellModel: NSObject, INSPhotoViewable {
     
     init(photoData: PhotoInfo) {
         self.photoData = photoData
+        let titleAttributes: [String: Any] = [ NSForegroundColorAttributeName : UIColor.white ]
+        let titleStr: String
+        
+        if let descr = self.photoData.desc {
+            if descr.characters.count > 240 {
+                titleStr = photoData.name + "\n" + descr.substring(to: 240) + "..."
+            } else {
+                titleStr = photoData.name + "\n" + descr
+            }
+        } else {
+            titleStr = photoData.name
+        }
+        
+        self.attributedTitle = NSAttributedString(string: titleStr, attributes: titleAttributes)
         super.init()
     }
     

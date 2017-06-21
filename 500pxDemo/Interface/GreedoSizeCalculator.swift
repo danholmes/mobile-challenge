@@ -42,7 +42,7 @@ class GreedoSizeCalculator: NSObject {
         if (size.width < 0.0 || size.height < 0.0) {
             size = CGSize.zero
         }
-        print("ip: %@ size: %f %f \n \n", indexPath, size.width, size.height)
+        //print("ip: %@ size: %f %f \n \n", indexPath, size.width, size.height)
         return size
     }
     
